@@ -5,8 +5,8 @@ Pemeriksaan dilakukan 5 November 2026 pada browser pratinjau.
 ## Berkas dan konten
 
 - JavaScript lolos `node --check`.
-- 72 referensi lokal HTML/CSS diperiksa: tidak ada berkas hilang atau anchor internal tidak dikenal; tidak ada ID duplikat.
-- Seluruh 21 gambar sumber berhasil dibaca; tidak ada gambar rusak pada halaman browser.
+- 76 referensi lokal HTML/CSS diperiksa: tidak ada berkas hilang atau anchor internal tidak dikenal; tidak ada ID duplikat.
+- Seluruh 22 gambar sumber berhasil dibaca; tidak ada gambar rusak pada halaman browser.
 - Template Company disertakan dan kredit BootstrapMade dipertahankan.
 - Sumber profil, foto, berita, produk, serta konteks data 2024/2026 tercantum pada halaman Sumber & Tentang Proyek.
 

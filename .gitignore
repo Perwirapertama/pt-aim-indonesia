@@ -1,7 +1,6 @@
-.sites-runtime/
-.sites-checkout*/
 node_modules/
 dist/
+pengumpulan/
 *.log
 .DS_Store
 Thumbs.db

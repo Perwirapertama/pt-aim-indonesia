@@ -1,6 +1,10 @@
 # AIM Indonesia — Website Praktikum APSI
 
-Website statis profil PT Aman Indah Makmur untuk **Acara VIII — WEBSITE**, dikustomisasi dari template **Company** oleh BootstrapMade. Penomoran acara mengikuti PPT ACARA 8; materi buku mengacu pada bab IX WEBSITE. Bahasa antarmuka Indonesia. Seluruh logo, foto kegiatan, serta foto produk berasal dari sumber perusahaan; tidak ada aset AI tambahan pada versi ini.
+Website statis profil PT Aman Indah Makmur untuk **Acara VIII — WEBSITE**, menggunakan template **Company** oleh BootstrapMade. Kelompok **S2**, praktikan **Dimas Prawiratama**, NIM **122240199**. Penomoran acara mengikuti PPT ACARA 8; materi buku mengacu pada bab IX WEBSITE. Bahasa antarmuka Indonesia. Logo, foto kegiatan, dan foto produk mengacu pada sumber yang tercantum dalam proyek.
+
+- Website: https://perwirapertama.github.io/aim-indonesia-apsi/
+- Repositori: https://github.com/Perwirapertama/aim-indonesia-apsi
+- Folder laptop: `D:\S2_PT_Aman_Indah_Makmur`
 
 ## Buka di Visual Studio Code
 
@@ -15,7 +19,7 @@ Alternatif: gunakan ekstensi Live Server. Halaman utama juga dapat dibuka langsu
 - `index.html`: struktur, teks, produk, kontak, dan susunan bagian.
 - `assets/css/aim.css`: identitas visual, ukuran, warna, dan responsivitas.
 - `assets/css/company.css`: stylesheet template asal, tetap disimpan.
-- `assets/js/main.js`: data detail produk, pencarian/filter, dialog, galeri, dan draf pesan WhatsApp.
+- `assets/js/main.js`: data detail produk, pencarian/filter, dialog, galeri, dan draf pesan WhatsApp serta email.
 - `assets/img/`: aset perusahaan asli dengan resolusi sumber.
 - `sumber.html`, `assets/SOURCES.md`, `assets/asset-sources.json`: sumber materi, gambar, dan catatan tahun data.
 - `serve.mjs`: server lokal untuk pengembangan, tidak dibutuhkan GitHub Pages.
@@ -30,22 +34,20 @@ Alternatif: gunakan ekstensi Live Server. Halaman utama juga dapat dibuka langsu
 - Formulir memvalidasi input dan **menyiapkan draf WhatsApp atau email**. Semua tujuan pengujian memakai kontak praktikan Dimas Prawiratama: **dimasbusinesshub@gmail.com** dan **+62 851-9001-2056**. Tombol email membuka aplikasi email bawaan melalui `mailto:`. Pesan baru dikirim setelah pengunjung meninjau dan menekan Kirim di aplikasinya. Tidak ada penyimpanan data formulir pada website.
 - Font Manrope, Bootstrap, ikon, dan gambar disertakan secara lokal. Video, peta, serta tautan keluar membutuhkan internet.
 
-## Publikasi di GitHub Pages
+## Memperbarui website dari VS Code
 
-1. Buat repositori GitHub untuk proyek. Untuk GitHub Free, pilih repositori publik sesuai alur modul.
-2. Unggah isi folder proyek, sehingga `index.html` berada di akar repositori. Jangan mengunggah folder `.git` atau kredensial apa pun. Folder `.openai` merupakan konfigurasi preview Sites dan dapat diabaikan untuk GitHub Pages.
-3. Buka **Settings → Pages → Build and deployment → Deploy from a branch**.
-4. Pilih branch `main`, folder `/(root)`, lalu simpan.
-5. Tunggu hasil deployment. Gunakan URL yang benar-benar ditampilkan GitHub pada halaman Pages.
-
-Alur terminal VS Code untuk repositori GitHub baru (ganti URL repositori):
+GitHub Pages sudah menggunakan branch `main`, folder `/(root)`. Setelah mengedit dan memeriksa hasil di server lokal, hentikan server dengan Ctrl+C lalu jalankan:
 
 ```powershell
-git remote add github https://github.com/USERNAME/NAMA-REPOSITORI.git
-git push -u github HEAD:main
+git status
+git add .
+git commit -m "Perbarui website AIM"
+git push origin main
 ```
 
-Jika folder ini tidak memiliki riwayat Git, jalankan `git init`, `git add .`, dan `git commit -m "Website profil AIM"` terlebih dahulu. Pastikan identitas Git dan autentikasi akun GitHub sudah dikonfigurasi. Semua jalur aset website bersifat relatif sehingga kompatibel dengan project Pages di subfolder repositori.
+Gunakan langkah ini dari folder hasil clone repositori. Pastikan Git terpasang dan akun GitHub sudah terautentikasi; masuk dengan akun pemilik repositori jika diminta. Jika memakai salinan dari ZIP, clone repositori terlebih dahulu lalu salin berkas yang diedit ke folder clone. Tunggu proses GitHub Pages selesai, lalu muat ulang website. Semua jalur aset bersifat relatif sehingga kompatibel dengan project Pages.
+
+Seluruh kode, gambar, font, dan pustaka tampilan tersedia di folder proyek. YouTube, Google Maps, WhatsApp, email, dan publikasi GitHub membutuhkan internet. Berkas ZIP pengumpulan disimpan di folder `pengumpulan/` pada laptop dan tidak diunggah bersama kode website.
 
 ## Kesesuaian tugas Acara VIII
 
