@@ -34,3 +34,11 @@ Video, peta, tautan resmi, dan WhatsApp memerlukan internet serta dapat bergantu
 ## Penyesuaian Acara VIII
 
 PPT ACARA 8 dan catatan papan tulis telah diperiksa. Menu Struktur ditambahkan; bagan organisasi asli dari laporan KP 2024 disertakan dalam ukuran sumber. Nama pengumpulan: S2_Dimas Prawiratama_122240199_TUGAS MODUL ACARA 8.zip. Format laporan sementara tetap merupakan berkas terpisah.
+
+## Kontak pengujian praktikan
+
+- Semua tautan WhatsApp diarahkan ke +62 851-9001-2056 dan email ke dimasbusinesshub@gmail.com sesuai permintaan praktikan.
+- Formulir memiliki pilihan Siapkan WhatsApp dan Siapkan Email. Kedua draf diuji di browser; penerima, topik, dan isi pesan terenkode dengan benar.
+- Pilihan email memakai mailto dan membuka aplikasi email pengguna. Website tidak mengirim email melalui server.
+- Tidak ditemukan tautan kontak perusahaan lama pada halaman utama. Tidak ada pesan WhatsApp atau email yang dikirim selama pengujian.
+- Kedua tombol tetap muat pada lebar HP 390 piksel tanpa gulir horizontal.

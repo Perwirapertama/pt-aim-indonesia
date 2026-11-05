@@ -27,7 +27,7 @@ Alternatif: gunakan ekstensi Live Server. Halaman utama juga dapat dibuka langsu
 - Video YouTube dimuat setelah tombol video dipilih. Pemutar dibuang ketika dialog ditutup.
 - Galeri tiga foto; mendukung tombol sebelumnya/berikutnya dan panah keyboard.
 - FAQ, Google Maps, email, media sosial, serta tautan sumber produk dan berita.
-- Formulir memvalidasi input dan **menyiapkan draf WhatsApp**. Pesan baru dikirim setelah pengunjung meninjau dan menekan Kirim di WhatsApp. Tidak ada penyimpanan data formulir pada website.
+- Formulir memvalidasi input dan **menyiapkan draf WhatsApp atau email**. Semua tujuan pengujian memakai kontak praktikan Dimas Prawiratama: **dimasbusinesshub@gmail.com** dan **+62 851-9001-2056**. Tombol email membuka aplikasi email bawaan melalui `mailto:`. Pesan baru dikirim setelah pengunjung meninjau dan menekan Kirim di aplikasinya. Tidak ada penyimpanan data formulir pada website.
 - Font Manrope, Bootstrap, ikon, dan gambar disertakan secara lokal. Video, peta, serta tautan keluar membutuhkan internet.
 
 ## Publikasi di GitHub Pages

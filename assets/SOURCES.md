@@ -8,7 +8,7 @@ Proyek akademik Praktikum Analisis dan Perancangan Sistem Informasi (APSI), PT A
 - [Tentang Kami](https://aimindonesia.co.id/about-us/): profil, visi, misi, dan nilai perusahaan.
 - [Katalog resmi](https://aimindonesia.co.id/shop/): sumber nama dan kategori produk; tautan halaman setiap produk disimpan dalam `asset-sources.json`.
 - [Lokasi Kami](https://aimindonesia.co.id/lokasi-kami/): alamat yang dicantumkan pada halaman resmi adalah **Kawasan Industri Candi Blok V No. 10, Semarang, Jawa Tengah 50183, Indonesia**. Alamat ini berbeda dari beberapa referensi historis. Rujukan alamat pada website tugas mengikuti halaman resmi tersebut.
-- Kontak pada beranda resmi saat ditelusuri: **oem@aimindonesia.co.id** dan WhatsApp **0821 3815 4528**. Tombol kontak membuka aplikasi pilihan pengunjung; tidak ada pesan yang dikirim otomatis.
+- Kontak pengujian website telah dialihkan atas permintaan praktikan ke Dimas Prawiratama: **dimasbusinesshub@gmail.com**, WhatsApp **+62 851-9001-2056**. Kontak ini bukan kontak resmi AIM. Draf pesan baru dikirim setelah pengguna meninjau dan mengirimnya sendiri di aplikasi WhatsApp atau email.
 
 ## Foto perusahaan dan berita
 

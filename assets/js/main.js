@@ -177,9 +177,18 @@
       field.addEventListener('input', () => field.setCustomValidity(''), { once: true });
       return;
     }
-    const draft = `Halo tim PT Aman Indah Makmur,\n\nNama: ${name}${company ? `\nPerusahaan: ${company}` : ''}\nTopik: ${topic}\n\n${message}`;
-    $('#whatsapp-draft').href = `https://wa.me/6282138154528?text=${encodeURIComponent(draft)}`;
+    const draft = `Halo Dimas (admin website praktikum AIM),\n\nNama: ${name}${company ? `\nPerusahaan: ${company}` : ''}\nTopik: ${topic}\n\n${message}`;
+    const channel = event.submitter?.value === 'email' ? 'email' : 'whatsapp';
+    const whatsappLink = $('#whatsapp-draft');
+    const emailLink = $('#email-draft');
+    whatsappLink.href = `https://wa.me/6285190012056?text=${encodeURIComponent(draft)}`;
+    emailLink.href = `mailto:dimasbusinesshub@gmail.com?subject=${encodeURIComponent(`[Uji Website AIM] ${topic}`)}&body=${encodeURIComponent(draft)}`;
+    whatsappLink.hidden = channel !== 'whatsapp';
+    emailLink.hidden = channel !== 'email';
+    $('#message-status').textContent = channel === 'email'
+      ? 'Draf email siap. Buka aplikasi email, tinjau kembali, lalu kirim.'
+      : 'Pesan siap. Buka WhatsApp, tinjau kembali, lalu kirim.';
     $('#message-result').hidden = false;
-    $('#whatsapp-draft').focus();
+    (channel === 'email' ? emailLink : whatsappLink).focus();
   });
 })();
