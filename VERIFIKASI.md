@@ -42,3 +42,12 @@ PPT ACARA 8 dan catatan papan tulis telah diperiksa. Menu Struktur ditambahkan; 
 - Pilihan email memakai mailto dan membuka aplikasi email pengguna. Website tidak mengirim email melalui server.
 - Tidak ditemukan tautan kontak perusahaan lama pada halaman utama. Tidak ada pesan WhatsApp atau email yang dikirim selama pengujian.
 - Kedua tombol tetap muat pada lebar HP 390 piksel tanpa gulir horizontal.
+
+## Animasi gulir dan alamat website
+
+- Judul, foto, merek, kartu produk, layanan, struktur, berita, FAQ, dan kontak muncul bertahap ketika memasuki layar. Elemen tetap terlihat setelah animasi pertama.
+- Pemeriksaan browser memastikan elemen di bawah layar menunggu, lalu jumlah elemen yang tampil bertambah setelah halaman digulir. Kartu produk memiliki jeda berurutan 0, 80, 160, dan 240 milidetik.
+- Pada lebar HP 390 piksel, menu dapat membuka bagian Produk dan tertutup kembali. Filter Dewasa menampilkan tiga produk; dialog IDEAL Adult Pants dapat dibuka dan ditutup dengan Escape. Tidak ada gulir horizontal.
+- Preferensi pengurangan gerakan dan pencetakan memiliki aturan untuk menampilkan konten tanpa animasi. Tanpa JavaScript atau IntersectionObserver, konten tetap ditampilkan.
+- Alamat website: https://perwirapertama.github.io/pt-aim-indonesia/
+- Repositori: https://github.com/Perwirapertama/pt-aim-indonesia

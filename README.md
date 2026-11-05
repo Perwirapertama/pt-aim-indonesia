@@ -1,9 +1,9 @@
-# AIM Indonesia — Website Praktikum APSI
+# PT AIM Indonesia
 
 Website statis profil PT Aman Indah Makmur untuk **Acara VIII — WEBSITE**, menggunakan template **Company** oleh BootstrapMade. Kelompok **S2**, praktikan **Dimas Prawiratama**, NIM **122240199**. Penomoran acara mengikuti PPT ACARA 8; materi buku mengacu pada bab IX WEBSITE. Bahasa antarmuka Indonesia. Logo, foto kegiatan, dan foto produk mengacu pada sumber yang tercantum dalam proyek.
 
-- Website: https://perwirapertama.github.io/aim-indonesia-apsi/
-- Repositori: https://github.com/Perwirapertama/aim-indonesia-apsi
+- Website: https://perwirapertama.github.io/pt-aim-indonesia/
+- Repositori: https://github.com/Perwirapertama/pt-aim-indonesia
 - Folder laptop: `D:\S2_PT_Aman_Indah_Makmur`
 
 ## Buka di Visual Studio Code
@@ -27,6 +27,7 @@ Alternatif: gunakan ekstensi Live Server. Halaman utama juga dapat dibuka langsu
 ## Fitur
 
 - Navigasi desktop dan HP, tautan langsung antarbagian, penanda bagian aktif, dan tombol kembali ke atas.
+- Animasi muncul saat digulir, dengan jeda bertahap antarelemen. Konten muncul sekali ketika memasuki layar; preferensi perangkat untuk mengurangi gerakan dihormati.
 - Sembilan produk, lima filter kategori, pencarian, keadaan hasil kosong, serta detail produk yang dapat ditutup dengan tombol, klik latar, atau Escape.
 - Video YouTube dimuat setelah tombol video dipilih. Pemutar dibuang ketika dialog ditutup.
 - Galeri tiga foto; mendukung tombol sebelumnya/berikutnya dan panah keyboard.

@@ -21,3 +21,11 @@
 .contact-actions{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:4px}.contact-actions .btn-aim{margin-top:0;justify-content:center;gap:10px;padding:14px 12px;font-size:10px}.contact-actions .btn-email{background:#fff;color:var(--blue)}.contact-actions .btn-email:hover{background:#eaf3fa;color:#0b4d89}@media(max-width:640px){.contact-actions{grid-template-columns:1fr}}
 
 .org-document{margin-top:45px;background:#fff;border:1px solid #dfe7ef;border-radius:9px;padding:28px}.org-document-heading{display:flex;justify-content:space-between;align-items:center;gap:25px;margin-bottom:24px}.org-document h3{font-size:22px;margin:8px 0 0}.org-document>a{display:block}.org-document img{width:100%;height:auto}.org-document>.source-note{margin:20px 0 0}.org-document .text-link{font-size:10px;flex-shrink:0}@media(max-width:640px){.org-document{width:calc(100% - 44px);padding:20px}.org-document-heading{display:block}.org-document h3{font-size:20px;margin-bottom:17px}.org-document>.source-note{font-size:9px}}
+
+/* Entrance motion is enabled progressively by the scroll observer. */
+.reveal-pending{opacity:0;translate:0 28px}
+.reveal-entered{animation:aim-reveal 780ms cubic-bezier(.2,.7,.2,1) var(--reveal-delay,0ms) both}
+@keyframes aim-reveal{from{opacity:0;translate:0 28px}to{opacity:1;translate:0 0}}
+@media(max-width:640px){.reveal-pending{translate:0 18px}.reveal-entered{animation-duration:650ms}@keyframes aim-reveal{from{opacity:0;translate:0 18px}to{opacity:1;translate:0 0}}}
+@media(prefers-reduced-motion:reduce){.reveal-pending,.reveal-entered{opacity:1!important;translate:none!important;animation:none!important}}
+@media print{.reveal-pending,.reveal-entered{opacity:1!important;translate:none!important;animation:none!important}}

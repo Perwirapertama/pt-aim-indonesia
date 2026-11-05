@@ -191,4 +191,62 @@
     $('#message-result').hidden = false;
     (channel === 'email' ? emailLink : whatsappLink).focus();
   });
+
+  function initScrollReveal() {
+    const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    if (motion.matches || !('IntersectionObserver' in window)) return;
+
+    const groups = [
+      ['.hero-copy', ':scope > *', 70],
+      ['.hero-layout', ':scope > .hero-visual', 0],
+      ['.brand-layout', ':scope > p, .brand-logos > img', 60],
+      ['.section-heading, .about-layout, .purpose-grid', ':scope > *', 100],
+      ['.timeline, .product-grid, .service-grid, .news-grid, .gallery-bar', ':scope > *', 80],
+      ['.production-layout', ':scope > *', 110],
+      ['.organization-layout, .faq-layout', ':scope > *', 100],
+      ['#kontak > .container', ':scope > .contact-heading, :scope > .map-layout', 0],
+      ['.contact-layout', ':scope > *', 100],
+      ['.about-aim > .container', ':scope > .source-note', 0],
+      ['.products-section > .container', ':scope > .catalog-tools', 0],
+      ['.services-aim > .container', ':scope > .service-bottom', 0],
+      ['.organization-section', ':scope > .org-document', 0]
+    ];
+    const targets = new Set();
+    const reveal = element => {
+      element.classList.remove('reveal-pending');
+      element.classList.add('reveal-entered');
+      observer.unobserve(element);
+    };
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) reveal(entry.target);
+      });
+    }, { threshold: 0.06, rootMargin: '0px 0px -36px 0px' });
+
+    groups.forEach(([parents, children, step]) => {
+      $$(parents).forEach(parent => {
+        $$(children, parent).forEach((element, index) => {
+          if (targets.has(element)) return;
+          targets.add(element);
+          element.style.setProperty('--reveal-delay', `${Math.min(index, 3) * step}ms`);
+          element.classList.add('reveal-pending');
+          observer.observe(element);
+        });
+      });
+    });
+
+    document.addEventListener('focusin', event => {
+      const pending = event.target.closest('.reveal-pending');
+      if (pending) {
+        pending.style.setProperty('--reveal-delay', '0ms');
+        reveal(pending);
+      }
+    });
+    motion.addEventListener('change', event => {
+      if (!event.matches) return;
+      observer.disconnect();
+      targets.forEach(element => element.classList.remove('reveal-pending', 'reveal-entered'));
+    });
+  }
+  initScrollReveal();
 })();
