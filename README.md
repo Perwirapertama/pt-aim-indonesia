@@ -33,7 +33,7 @@ Alternatif: gunakan ekstensi Live Server. Halaman utama juga dapat dibuka langsu
 - Galeri tiga foto; mendukung tombol sebelumnya/berikutnya dan panah keyboard.
 - FAQ, Google Maps, email, media sosial, serta tautan sumber produk dan berita.
 - Formulir memvalidasi input dan **menyiapkan draf WhatsApp atau email**. Semua tujuan pengujian memakai kontak praktikan Dimas Prawiratama: **dimasbusinesshub@gmail.com** dan **+62 851-9001-2056**. Tombol email membuka aplikasi email bawaan melalui `mailto:`. Pesan baru dikirim setelah pengunjung meninjau dan menekan Kirim di aplikasinya. Tidak ada penyimpanan data formulir pada website.
-- Font Manrope, Bootstrap, ikon, dan gambar disertakan secara lokal. Video, peta, serta tautan keluar membutuhkan internet.
+- Font Montserrat Alternates, Catamaran, Poppins, Bootstrap, ikon, dan gambar disertakan secara lokal. Video, peta, serta tautan keluar membutuhkan internet.
 
 ## Memperbarui website dari VS Code
 
@@ -61,7 +61,7 @@ PPT halaman 13 menetapkan pengumpulan ZIP/RAR dengan format `KELOMPOK_Nama_NIM_T
 - Template Company: https://bootstrapmade.com/company-free-html-bootstrap-template/
 - Lisensi template: https://bootstrapmade.com/license/ — kredit **Designed by BootstrapMade** dipertahankan.
 - Bootstrap dan Bootstrap Icons: lisensi MIT dari pembuatnya; header lisensi berkas vendor dipertahankan.
-- Manrope: SIL Open Font License; lihat `assets/fonts/OFL.txt`.
+- Montserrat Alternates, Catamaran, dan Poppins: SIL Open Font License. Pembagian font mengikuti situs resmi AIM; sumber dan lisensi masing-masing tersedia di `assets/fonts/SOURCES.md`.
 - Logo, kemasan, merek, dan dokumentasi AIM tetap milik pemiliknya. Sumber dan URL asli terdaftar di `assets/asset-sources.json`.
 - Data profil terkini merujuk situs perusahaan yang diakses 5 November 2026. Data proses, linimasa historis, dan gambaran fungsi organisasi merujuk laporan KP 2024.
 

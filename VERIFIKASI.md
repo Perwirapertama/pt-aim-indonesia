@@ -5,7 +5,7 @@ Pemeriksaan dilakukan 5 November 2026 pada browser pratinjau.
 ## Berkas dan konten
 
 - JavaScript lolos `node --check`.
-- 76 referensi lokal HTML/CSS diperiksa: tidak ada berkas hilang atau anchor internal tidak dikenal; tidak ada ID duplikat.
+- 87 referensi lokal HTML/CSS diperiksa: tidak ada berkas hilang atau anchor internal tidak dikenal; tidak ada ID duplikat.
 - Seluruh 22 gambar sumber berhasil dibaca; tidak ada gambar rusak pada halaman browser.
 - Template Company disertakan dan kredit BootstrapMade dipertahankan.
 - Sumber profil, foto, berita, produk, serta konteks data 2024/2026 tercantum pada halaman Sumber & Tentang Proyek.
@@ -51,3 +51,10 @@ PPT ACARA 8 dan catatan papan tulis telah diperiksa. Menu Struktur ditambahkan; 
 - Preferensi pengurangan gerakan dan pencetakan memiliki aturan untuk menampilkan konten tanpa animasi. Tanpa JavaScript atau IntersectionObserver, konten tetap ditampilkan.
 - Alamat website: https://perwirapertama.github.io/pt-aim-indonesia/
 - Repositori: https://github.com/Perwirapertama/pt-aim-indonesia
+
+## Tipografi situs resmi AIM
+
+- Gaya teks situs resmi AIM diperiksa langsung di browser: Montserrat Alternates untuk teks dan menu, Catamaran untuk judul utama bagian, serta Poppins untuk teks layanan.
+- Ketiga font diterapkan melalui berkas WOFF2 lokal dengan bobot 400–800. Lisensi masing-masing disertakan dalam folder font.
+- Browser memastikan ketiga keluarga font berhasil dimuat; font teks, judul, menu, dan paragraf layanan sesuai pembagiannya.
+- Pada desktop 1280 × 900, navigasi tetap muat. Pada HP 390 × 844, judul, menu, informasi kontak, dan formulir tetap muat tanpa gulir horizontal.

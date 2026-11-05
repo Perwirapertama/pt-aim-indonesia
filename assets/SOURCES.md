@@ -51,3 +51,7 @@ Bab V laporan KP 2024 (halaman cetak 28–32) menyebut Direksi, General Manager,
 `asset-sources.json` memuat URL sumber halaman, URL berkas media asli, judul, dan tanggal berita untuk setiap gambar. Sebanyak 21 berkas asli diunduh dari domain resmi `aimindonesia.co.id`; satu bagan organisasi diekstrak langsung dari PDF laporan KP. Gambar tidak diperbesar dari thumbnail. Logo merek beresolusi hingga 1600 × 800, gambar produk 989–2048 piksel, dan dokumentasi acara hingga 6000 × 4000 piksel. Seluruh 22 berkas berhasil didekode dan diverifikasi pada 5 November 2026.
 
 Logo, merek, kemasan, dan dokumentasi tetap menjadi milik pemegang hak masing-masing. Penyebutan produk dan penggunaan aset dimaksudkan untuk pembelajaran dan atribusi akademik. Deskripsi produk pada website tugas diringkas dari sumber; klaim sertifikasi atau manfaat tertentu tidak boleh diperluas tanpa bukti.
+
+## Tipografi
+
+Pembagian font mengikuti gaya teks pada situs resmi AIM yang diperiksa 5 November 2026: Montserrat Alternates untuk teks umum dan menu, Catamaran untuk judul, serta Poppins pada teks layanan. Font disertakan secara lokal dalam format WOFF2; sumber dan lisensi tercatat di [sumber font](fonts/SOURCES.md).
