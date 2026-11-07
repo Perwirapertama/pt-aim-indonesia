@@ -4,17 +4,18 @@
   const $ = (selector, root = document) => root.querySelector(selector);
   const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
   const products = {
-    'fluffy-pants': { brand: 'FLUFFY · BAYI', name: 'Fluffy Baby Pants', image: 'fluffy-pants.png', description: 'Popok bayi tipe celana dari Fluffy. Pilih ukuran sesuai kebutuhan si kecil dan ikuti panduan pada kemasan produk.', specs: [['Jenis', 'Popok bayi tipe celana'], ['Kemasan', 'S40 / M30 / L26 / XL26']], url: 'https://aimindonesia.co.id/product/fluffy-popok-bayi-tipe-celana-s40-i-m30-i-l26/' },
-    'fluffy-tape': { brand: 'FLUFFY · BAYI', name: 'Fluffy Baby Tape', image: 'fluffy-tape.png', description: 'Popok bayi tipe perekat dari Fluffy, tersedia dalam beberapa pilihan ukuran dan isi kemasan.', specs: [['Jenis', 'Popok bayi tipe perekat'], ['Kemasan', 'NB–S40 / M36 / L32']], url: 'https://aimindonesia.co.id/product/fluffy-popok-bayi-tipe-perekat-nb-s40-m36-l32/' },
-    'mamamia-pants': { brand: 'MAMAMIA · BAYI', name: 'Mamamia Baby Pants', image: 'mamamia-pants.jpg', description: 'Pilihan popok bayi tipe celana dari Mamamia. Gambar menampilkan paket tiga kemasan ukuran M30.', specs: [['Jenis', 'Popok bayi tipe celana'], ['Kemasan ditampilkan', '3 bag × M30']], url: 'https://aimindonesia.co.id/product/paket-3bag-mamamia-popok-bayi-celana-anti-ruam-m30-pcs-x-3-bag-halal-soft-dry-pants-xtra-lembut-xtra-kering/' },
-    'ideal-pants': { brand: 'IDEAL · DEWASA', name: 'IDEAL Adult Pants', image: 'ideal-pants.png', description: 'Popok dewasa tipe celana dari IDEAL untuk melengkapi kebutuhan perawatan sehari-hari. Rujuk panduan ukuran pada kemasan.', specs: [['Jenis', 'Popok dewasa tipe celana'], ['Kemasan', 'M8 / L8 / XL8']], url: 'https://aimindonesia.co.id/product/ideal-popok-dewasa-tipe-celana-m8-i-l7-i-xl6/' },
-    'ideal-tape': { brand: 'IDEAL · DEWASA', name: 'IDEAL Adult Tape', image: 'ideal-tape.png', description: 'Popok dewasa dengan pengikat tipe perekat dari IDEAL. Informasi ukuran dan penggunaan tersedia pada halaman resmi produk.', specs: [['Jenis', 'Popok dewasa tipe perekat'], ['Kemasan', 'M8 / L7 / XL6']], url: 'https://aimindonesia.co.id/product/ideal-popok-dewasa-adult-diapers/' },
-    'lively-pants': { brand: 'LIVELY · DEWASA', name: 'Lively Adult Pants', image: 'lively-pants.jpeg', description: 'Popok dewasa tipe celana dari Lively. Gambar katalog menampilkan penawaran paket dua kemasan.', specs: [['Jenis', 'Popok dewasa tipe celana'], ['Pilihan ukuran', 'M / L / XL']], url: 'https://aimindonesia.co.id/product/2-pack-lively-adult-diapers-pants-m82-l71-xl61-with-japan-technology-anti-ruam-comfort-soft/' },
-    'luna-menstrual': { brand: 'LUNA · PERAWATAN', name: 'LUNA Celana Menstruasi', image: 'luna-menstrual.jpg', description: 'Celana menstruasi dari LUNA untuk kebutuhan perawatan pribadi. Gunakan sesuai petunjuk pada kemasan.', specs: [['Jenis', 'Celana menstruasi'], ['Ukuran', 'M–XL'], ['Isi ditampilkan', '2 pcs']], url: 'https://aimindonesia.co.id/product/1-pack-luna-celana-menstruasi-m-xl/' },
-    'sofcare-underpad': { brand: 'SOFCARE · PERAWATAN', name: 'Sofcare Underpad', image: 'sofcare-underpad.png', description: 'Alas sekali pakai dari Sofcare untuk melengkapi kebutuhan perawatan. Gambar menampilkan paket dua kemasan underpad XL.', specs: [['Jenis', 'Underpad / alas sekali pakai'], ['Ukuran', '60 × 90 cm (XL)']], url: 'https://aimindonesia.co.id/product/2-pack-sofcare-underpad-xl-60cm-x-90cm-perlak-alas-sekali-pakai/' },
-    'ohmypet-female': { brand: 'OH MY PET · HEWAN', name: 'Oh My Pet Female Diapers', image: 'ohmypet-female.png', description: 'Popok hewan betina dari Oh My Pet. Pilih ukuran mengikuti panduan pada produk agar sesuai dengan kebutuhan hewan kesayangan Anda.', specs: [['Jenis', 'Popok hewan betina'], ['Kemasan ditampilkan', 'M10']], url: 'https://aimindonesia.co.id/product/oh-my-pet-pet-diapers-female-betina/' }
+    'fluffy-pants': { brand: 'FLUFFY · BAYI', name: 'Fluffy Baby Pants', image: 'fluffy-pants.png', description: 'Popok bayi tipe celana dari Fluffy. Pilih ukuran sesuai kebutuhan si kecil dan ikuti panduan pada kemasan produk.', specs: [['Jenis', 'Popok bayi tipe celana'], ['Kemasan', 'S40 / M30 / L26 / XL26']], shopeeUrl: 'https://shopee.co.id/FLUFFY-Popok-Bayi-Tipe-Celana-S40-M30-L26-XL26-Halal-Anti-Bocor-Anti-Ruam-Nyaman-Dipakai-i.94116265.1549499232' },
+    'fluffy-tape': { brand: 'FLUFFY · BAYI', name: 'Fluffy Baby Tape', image: 'fluffy-tape.png', description: 'Popok bayi tipe perekat dari Fluffy, tersedia dalam beberapa pilihan ukuran dan isi kemasan.', specs: [['Jenis', 'Popok bayi tipe perekat'], ['Kemasan', 'NB–S40 / M36 / L32']], shopeeUrl: 'https://shopee.co.id/Fluffy-Popok-Bayi-Tipe-Perekat-Tape-NB-S40-M36-L32-Jumbo-Pack-Halal-Clothlike-Anti-Bocor-Anti-Ruam-i.94116265.1549464819' },
+    'mamamia-pants': { brand: 'MAMAMIA · BAYI', name: 'Mamamia Baby Pants', image: 'mamamia-pants.jpg', description: 'Pilihan popok bayi tipe celana dari Mamamia. Gambar menampilkan paket tiga kemasan ukuran M30.', specs: [['Jenis', 'Popok bayi tipe celana'], ['Kemasan ditampilkan', '3 bag × M30']], shopeeQuery: 'Mamamia popok bayi celana M30 3 bag' },
+    'ideal-pants': { brand: 'IDEAL · DEWASA', name: 'IDEAL Adult Pants', image: 'ideal-pants.png', description: 'Popok dewasa tipe celana dari IDEAL untuk melengkapi kebutuhan perawatan sehari-hari. Rujuk panduan ukuran pada kemasan.', specs: [['Jenis', 'Popok dewasa tipe celana'], ['Kemasan', 'M8 / L8 / XL8']], shopeeUrl: 'https://shopee.co.id/IDEAL-Popok-Dewasa-Tipe-Celana-size-M8-2-L8-XL8-Anti-Bakteri-Daya-Serap-Tinggi-Nyaman-Seharian-i.94116265.20964470342' },
+    'ideal-tape': { brand: 'IDEAL · DEWASA', name: 'IDEAL Adult Tape', image: 'ideal-tape.png', description: 'Popok dewasa dengan pengikat tipe perekat dari IDEAL. Lihat panduan ukuran dan penggunaan pada kemasan.', specs: [['Jenis', 'Popok dewasa tipe perekat'], ['Kemasan', 'M8 / L7 / XL6']], shopeeUrl: 'https://shopee.co.id/IDEAL-Popok-Dewasa-Tipe-Perekat-M8-L7-XL6-Anti-Bocor-Anti-Ruam-Daya-Serap-Nyaman-untuk-Orang-Tua-i.94116265.18264474137' },
+    'lively-pants': { brand: 'LIVELY · DEWASA', name: 'Lively Adult Pants', image: 'lively-pants.jpeg', description: 'Popok dewasa tipe celana dari Lively. Gambar katalog menampilkan penawaran paket dua kemasan.', specs: [['Jenis', 'Popok dewasa tipe celana'], ['Pilihan ukuran', 'M / L / XL']], shopeeQuery: 'Lively popok dewasa tipe celana 2 pack' },
+    'luna-menstrual': { brand: 'LUNA · PERAWATAN', name: 'LUNA Celana Menstruasi', image: 'luna-menstrual.jpg', description: 'Celana menstruasi dari LUNA untuk kebutuhan perawatan pribadi. Gunakan sesuai petunjuk pada kemasan.', specs: [['Jenis', 'Celana menstruasi'], ['Ukuran', 'M–XL'], ['Isi ditampilkan', '2 pcs']], shopeeUrl: 'https://shopee.co.id/Luna-Celana-Menstruasi-isi-2-pcs-ukuran-M-XL-%28-ukuran-pinggul-85-105cm-%29-i.1108025046.41266129433' },
+    'sofcare-underpad': { brand: 'SOFCARE · PERAWATAN', name: 'Sofcare Underpad', image: 'sofcare-underpad.png', description: 'Alas sekali pakai dari Sofcare untuk melengkapi kebutuhan perawatan. Gambar menampilkan paket dua kemasan underpad XL.', specs: [['Jenis', 'Underpad / alas sekali pakai'], ['Ukuran', '60 × 90 cm (XL)']], shopeeUrl: 'https://shopee.co.id/-2-Pack-Sofcare-Underpad-XL-60cm-x-90cm-Perlak-Sekali-Pakai-Serbaguna-Halus-i.94116265.15497480610' },
+    'ohmypet-female': { brand: 'OH MY PET · HEWAN', name: 'Oh My Pet Female Diapers', image: 'ohmypet-female.png', description: 'Popok hewan betina dari Oh My Pet. Pilih ukuran mengikuti panduan pada produk agar sesuai dengan kebutuhan hewan kesayangan Anda.', specs: [['Jenis', 'Popok hewan betina'], ['Kemasan ditampilkan', 'M10']], shopeeQuery: 'Oh My Pet popok hewan betina M10' }
   };
 
+  const header = $('#header');
   const menuButton = $('.menu-toggle');
   const nav = $('#navmenu');
   const closeMenu = () => {
@@ -31,26 +32,32 @@
   });
   $$('#navmenu a').forEach(link => link.addEventListener('click', closeMenu));
   document.addEventListener('click', event => {
-    if (!$('#header').contains(event.target)) closeMenu();
+    if (!header.contains(event.target)) closeMenu();
   });
   document.addEventListener('keydown', event => {
     if (event.key === 'Escape') closeMenu();
   });
   const navLinks = $$('#navmenu a');
   const navSections = navLinks.map(link => $(link.getAttribute('href'))).filter(Boolean);
+  let navOffset;
   const setActiveNav = () => {
-    const current = navSections.filter(section => section.getBoundingClientRect().top <= 180).at(-1) || navSections[0];
+    const current = navSections.findLast(section => section.getBoundingClientRect().top <= navOffset + 2) ?? navSections[0];
     navLinks.forEach(link => {
       const active = link.hash === '#' + current.id;
       link.classList.toggle('active', active);
       if (active) link.setAttribute('aria-current', 'location');
       else link.removeAttribute('aria-current');
     });
-    $('#header').classList.toggle('scrolled', window.scrollY > 30);
-    $('.back-top').classList.toggle('is-visible', window.scrollY > 600);
+    header.classList.toggle('scrolled', window.scrollY > 30);
   };
   window.addEventListener('scroll', setActiveNav, { passive: true });
-  setActiveNav();
+  const updateNavOffset = () => {
+    navOffset = header.offsetHeight + 10;
+    document.documentElement.style.setProperty('--nav-offset', `${navOffset}px`);
+    setActiveNav();
+  };
+  new ResizeObserver(updateNavOffset).observe(header);
+  updateNavOffset();
   $('#year').textContent = String(new Date().getFullYear());
 
   let activeFilter = 'semua';
@@ -109,7 +116,9 @@
     $('#dialog-product-img').src = `assets/img/${product.image}`;
     $('#dialog-product-img').alt = product.name;
     $('#dialog-product-description').textContent = product.description;
-    $('#dialog-product-source').href = product.url;
+    $('#dialog-product-source').href = product.shopeeUrl
+      ?? `https://shopee.co.id/search?keyword=${encodeURIComponent(product.shopeeQuery)}`;
+    $('#dialog-product-marketplace-label').textContent = product.shopeeUrl ? 'Lihat di Shopee' : 'Cari di Shopee';
     const list = $('#dialog-product-specs');
     list.replaceChildren();
     product.specs.forEach(([label, value]) => {
@@ -203,13 +212,13 @@
       ['.section-heading, .about-layout, .purpose-grid', ':scope > *', 100],
       ['.timeline, .product-grid, .service-grid, .news-grid, .gallery-bar', ':scope > *', 80],
       ['.production-layout', ':scope > *', 110],
-      ['.organization-layout, .faq-layout', ':scope > *', 100],
+      ['.faq-layout', ':scope > *', 100],
       ['#kontak > .container', ':scope > .contact-heading, :scope > .map-layout', 0],
       ['.contact-layout', ':scope > *', 100],
       ['.about-aim > .container', ':scope > .source-note', 0],
       ['.products-section > .container', ':scope > .catalog-tools', 0],
       ['.services-aim > .container', ':scope > .service-bottom', 0],
-      ['.organization-section', ':scope > .org-document', 0]
+      ['.organization-section > .container', ':scope > .org-document', 0]
     ];
     const targets = new Set();
     const reveal = element => {

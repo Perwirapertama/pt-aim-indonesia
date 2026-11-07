@@ -26,12 +26,12 @@ Alternatif: gunakan ekstensi Live Server. Halaman utama juga dapat dibuka langsu
 
 ## Fitur
 
-- Navigasi desktop dan HP, tautan langsung antarbagian, penanda bagian aktif, dan tombol kembali ke atas.
+- Navigasi desktop dan HP, tautan langsung antarbagian, serta penanda bagian aktif.
 - Animasi muncul saat digulir, dengan jeda bertahap antarelemen. Konten muncul sekali ketika memasuki layar; preferensi perangkat untuk mengurangi gerakan dihormati.
 - Sembilan produk, lima filter kategori, pencarian, keadaan hasil kosong, serta detail produk yang dapat ditutup dengan tombol, klik latar, atau Escape.
 - Video YouTube dimuat setelah tombol video dipilih. Pemutar dibuang ketika dialog ditutup.
 - Galeri tiga foto; mendukung tombol sebelumnya/berikutnya dan panah keyboard.
-- FAQ, Google Maps, email, media sosial, serta tautan sumber produk dan berita.
+- FAQ, Google Maps, email, media sosial, dan tautan Shopee dari dialog produk.
 - Formulir memvalidasi input dan **menyiapkan draf WhatsApp atau email**. Semua tujuan pengujian memakai kontak praktikan Dimas Prawiratama: **dimasbusinesshub@gmail.com** dan **+62 851-9001-2056**. Tombol email membuka aplikasi email bawaan melalui `mailto:`. Pesan baru dikirim setelah pengunjung meninjau dan menekan Kirim di aplikasinya. Tidak ada penyimpanan data formulir pada website.
 - Font Montserrat Alternates, Catamaran, Poppins, Bootstrap, ikon, dan gambar disertakan secara lokal. Video, peta, serta tautan keluar membutuhkan internet.
 
@@ -63,6 +63,6 @@ PPT halaman 13 menetapkan pengumpulan ZIP/RAR dengan format `KELOMPOK_Nama_NIM_T
 - Bootstrap dan Bootstrap Icons: lisensi MIT dari pembuatnya; header lisensi berkas vendor dipertahankan.
 - Montserrat Alternates, Catamaran, dan Poppins: SIL Open Font License. Pembagian font mengikuti situs resmi AIM; sumber dan lisensi masing-masing tersedia di `assets/fonts/SOURCES.md`.
 - Logo, kemasan, merek, dan dokumentasi AIM tetap milik pemiliknya. Sumber dan URL asli terdaftar di `assets/asset-sources.json`.
-- Data profil terkini merujuk situs perusahaan yang diakses 5 November 2026. Data proses, linimasa historis, dan gambaran fungsi organisasi merujuk laporan KP 2024.
+- Data profil terkini merujuk situs perusahaan yang diakses 5 November 2026. Data proses, linimasa historis, dan bagan struktur organisasi merujuk laporan KP 2024.
 
 Website ini merupakan proyek akademik dan memuat penanda tersebut di footer, bukan pernyataan afiliasi atau situs resmi perusahaan.
